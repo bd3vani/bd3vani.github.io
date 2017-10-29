@@ -11,11 +11,13 @@ body {
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
+	padding: 40px 0
+}
+h1 {
+	font-weight: 700;
 }
 h1, h2 {
 	width: 100%;
-	background: #b0c8d6;
-	color: #fff;
 	text-align: center;
 	padding: 20px;
 }
@@ -29,12 +31,19 @@ p {
 li {
 	list-style: square;
 }
+.title-bar {
+	/*background: #b0c8d6;*/
+	font-weight: 700;
+	padding: 20px;
+	width: 100%;
+}
 .container.main  {
   opacity: 1;
 }
 .container.main .about {
 	font-size: 120%;
-	background: #fff;
+	font-weight: 500;
+	color: black;
 	padding: 30px 30px;
 }
 .photo {
@@ -52,9 +61,9 @@ li {
 	padding: 0;
 }
 .work .row {
-	margin: 25px auto;
+	margin: 65px auto;
 }
-.work .col-md-6 {
+.work .col-md-6, .work .col-md-12 {
 	background: #fff;
 	padding: 10px 0;
 	-webkit-box-shadow: 5px 4px 9px 0px rgba(50, 50, 50, 0.75);
@@ -95,4 +104,7 @@ li {
 .col-md-6 > img {
 	/*max-width: 70%;
 	position: absolute;*/
+}
+.avatar {
+	height: 150px;
 }
