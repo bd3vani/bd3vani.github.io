@@ -106,5 +106,21 @@ li {
 	position: absolute;*/
 }
 .avatar {
-	height: 150px;
+	height: 120px;
+}
+.links {
+	margin: 40px 0;
+}
+.links a {
+	margin-right: 30px;
+	color: black !important;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 1.5em;
+}
+.links a:hover {
+	text-decoration: underline;
+}
+img.linked-in {
+	width: 20px;
 }
