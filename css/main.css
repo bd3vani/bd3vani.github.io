@@ -66,15 +66,17 @@ li {
 .work .col-md-12 {
 	background: #fff;
 	padding: 10px 0;
-	-webkit-box-shadow: 5px 4px 9px 0px rgba(50, 50, 50, 0.75);
+	/*-webkit-box-shadow: 5px 4px 9px 0px rgba(50, 50, 50, 0.75);
 	-moz-box-shadow:    5px 4px 9px 0px rgba(50, 50, 50, 0.75);
-	box-shadow:         5px 4px 9px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         5px 4px 9px 0px rgba(50, 50, 50, 0.75);*/
 	overflow: hidden;
 	min-height: 320px;
-	background: #fff;
 }
 .col-md-6.info {
 	background: #fff;
+	/*-webkit-box-shadow: 5px 4px 9px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    5px 4px 9px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         5px 4px 9px 0px rgba(50, 50, 50, 0.75);	*/
 }
 .work .col-md-6 img {
 	margin: 0 auto;
