@@ -63,7 +63,7 @@ li {
 .work .row {
 	margin: 65px auto;
 }
-.work .col-md-6, .work .col-md-12 {
+.work .col-md-12 {
 	background: #fff;
 	padding: 10px 0;
 	-webkit-box-shadow: 5px 4px 9px 0px rgba(50, 50, 50, 0.75);
@@ -71,6 +71,9 @@ li {
 	box-shadow:         5px 4px 9px 0px rgba(50, 50, 50, 0.75);
 	overflow: hidden;
 	min-height: 320px;
+	background: #fff;
+}
+.col-md-6.info {
 	background: #fff;
 }
 .work .col-md-6 img {
@@ -123,4 +126,13 @@ li {
 }
 img.linked-in {
 	width: 20px;
+}
+
+@media (max-width: 601px) {
+.col-md-6.info {
+  margin-top: 20px;
+}
+.links {
+	font-size: 70%;
+}
 }
