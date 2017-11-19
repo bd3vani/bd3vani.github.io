@@ -1,4 +1,10 @@
 body {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+.container-fluid.main {
+	padding: 0 20px 50px 0;
 	background: rgba(245,234,189,1);
 	background: -moz-linear-gradient(-45deg, rgba(245,234,189,1) 0%, rgba(245,234,189,1) 18%, rgba(127,210,199,1) 65%, rgba(127,210,199,1) 100%);
 	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(245,234,189,1)), color-stop(18%, rgba(245,234,189,1)), color-stop(65%, rgba(127,210,199,1)), color-stop(100%, rgba(127,210,199,1)));
@@ -7,11 +13,9 @@ body {
 	background: -ms-linear-gradient(-45deg, rgba(245,234,189,1) 0%, rgba(245,234,189,1) 18%, rgba(127,210,199,1) 65%, rgba(127,210,199,1) 100%);
 	background: linear-gradient(135deg, rgba(245,234,189,1) 0%, rgba(245,234,189,1) 18%, rgba(127,210,199,1) 65%, rgba(127,210,199,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5eabd', endColorstr='#7fd2c7', GradientType=1 );
-
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-	-webkit-font-smoothing: antialiased;
-	text-rendering: optimizeLegibility;
-	padding: 40px 0
+}
+.container.work {
+	margin-top: 40px;
 }
 h1 {
 	font-weight: 700;
@@ -37,9 +41,6 @@ li {
 	padding: 20px;
 	width: 100%;
 }
-.container.main  {
-  opacity: 1;
-}
 .container.main .about {
 	font-size: 120%;
 	font-weight: 500;
@@ -62,13 +63,16 @@ li {
 }
 .work .row {
 	margin: 65px auto;
+	padding: 20px;
+	/*border: 1px solid #999;*/
+	-webkit-box-shadow: 3px 3px 9px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    3px 3px 9px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         3px 3px 9px 0px rgba(50, 50, 50, 0.75);
 }
 .work .col-md-12 {
 	background: #fff;
 	padding: 10px 0;
-	/*-webkit-box-shadow: 5px 4px 9px 0px rgba(50, 50, 50, 0.75);
-	-moz-box-shadow:    5px 4px 9px 0px rgba(50, 50, 50, 0.75);
-	box-shadow:         5px 4px 9px 0px rgba(50, 50, 50, 0.75);*/
+
 	overflow: hidden;
 	min-height: 320px;
 }
